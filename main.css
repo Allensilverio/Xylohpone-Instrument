@@ -1,0 +1,134 @@
+body {
+    background-color: #242729;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding: 1% 1%;
+}
+
+/* Navbar Setion */
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    padding: 0 2%;
+}
+
+.navbar h1 {
+    align-self: center;
+    padding-right: 1%;
+    font-size: 2.125rem;
+}
+
+.navbar-brand {
+    width: 6%;
+    transform: rotate(90deg);
+}
+
+/* Xylophone Section */
+
+.xylo-container { 
+    display: flex;
+    height: 75vh;
+
+}
+
+/* Keys (Notes container)*/
+
+.key {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.number {
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* Notes Main Style */
+
+.note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 70%;
+    font-family: 'Roboto slab', sans-serif;;
+    font-weight: 300;
+    font-size: 2.3rem;
+    color: #242729;
+    margin: 0 auto;
+    
+}
+
+/* Notes */
+
+
+.c1 {
+   background-color: #CB2E2A;
+   height: 95%;
+}
+
+.d1 {
+    background-color: #DA8600;
+    height: 90%;
+ }
+
+ .e1 {
+    background-color: #DBA700;
+    height: 85%;
+ }
+
+ .f {
+    background-color: #479A4B;
+    height: 80%;
+ }
+
+ .g {
+    background-color: #00867A;
+    height: 75%;
+ }
+
+ .a {
+    background-color: #0090D0;
+    height: 70%;
+ }
+ .b {
+    background-color: #4F2799;
+    height: 65%;
+ }
+
+ .c2 {
+    background-color: #CF2115;
+    height: 60%;
+ }
+
+ .d2 {
+    background-color: #DA7800;
+    height: 55%;
+ }
+
+ .e2 {
+    background-color: #DB9E00;
+    height: 50%;
+ }
+
+ /* Notes hover and pressed state */
+
+.note:hover {
+    filter: saturate(110%);
+    
+}
+
+.pressed {
+    filter: saturate(125%);
+    filter: brightness(90%);
+   
+
+}
+
+
+
